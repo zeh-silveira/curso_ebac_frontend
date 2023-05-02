@@ -10,7 +10,7 @@ body > header {
     padding: 16px 0;
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +26,7 @@ header li a {
     text-decoration: none;
     font-weight: 700;
     margin-left: 16px;
+    margin-right: 0px;
 }
 
 .container {
@@ -40,7 +41,8 @@ header li a {
 }
 
 .articles article img {
-    width: 100%;
+    width: 430px;
+    height: 300px;
 }
 
 .articles article {
@@ -88,12 +90,19 @@ article h3 {
     font-size: 21px;
 }
 
-section h2{
-    font-size: 27px;
+section h2 {
+    font-size: 23px;
 }
 
 #sports {
     background-color: rgba(0, 0, 255, 0.2);
+}
+
+#esports {
+    background-color: rgba(141, 5, 5, 0.336);
+}
+#tecnology {
+    background-color: rgba(173, 143, 5, 0.651);
 }
 
 #economy {
